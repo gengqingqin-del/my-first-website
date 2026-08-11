@@ -80,8 +80,8 @@ a {
 }
 
 .hero-content {
-  width: min(100%, 980px);
-  padding: 0 clamp(12px, 3vw, 32px);
+  width: min(100%, 1080px);
+  padding: 0 clamp(20px, 5vw, 56px);
 }
 
 .eyebrow {
@@ -102,10 +102,12 @@ h3 {
 
 h1 {
   margin: 0 auto 20px;
-  max-width: 11em;
+  max-width: min(100%, 12em);
   color: var(--primary-blue);
-  font-size: clamp(2.4rem, 5.6vw, 4.6rem);
-  line-height: 1.08;
+  font-size: clamp(2.25rem, 4.8vw, 4.1rem);
+  line-height: 1.12;
+  word-break: keep-all;
+  overflow-wrap: normal;
   text-wrap: balance;
 }
 
@@ -258,9 +260,9 @@ h2 {
   }
 
   h1 {
-    max-width: 9em;
-    font-size: clamp(2.1rem, 9vw, 3.2rem);
-    line-height: 1.12;
+    max-width: min(100%, 10em);
+    font-size: clamp(2rem, 8vw, 3rem);
+    line-height: 1.14;
   }
 
   .hero-text {
@@ -297,13 +299,13 @@ h2 {
   }
 
   h1 {
-    max-width: 7.5em;
-    font-size: clamp(1.95rem, 11.5vw, 2.55rem);
-    line-height: 1.14;
+    max-width: min(100%, 9em);
+    font-size: clamp(1.85rem, 9.8vw, 2.4rem);
+    line-height: 1.16;
   }
 
   .hero-content {
-    padding: 0 6px;
+    padding: 0 10px;
   }
 
   .primary-button,
