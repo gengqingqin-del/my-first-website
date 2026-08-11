@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">个人头像</title>
+  <desc id="desc">简洁的蓝色圆形人物头像插画</desc>
+  <circle cx="120" cy="120" r="112" fill="#eff6ff"/>
+  <circle cx="120" cy="120" r="104" fill="#dbeafe" stroke="#1d4ed8" stroke-width="8"/>
+  <circle cx="120" cy="88" r="36" fill="#1d4ed8"/>
+  <path d="M54 196c10-42 37-66 66-66s56 24 66 66" fill="#60a5fa"/>
+  <path d="M72 196c9-29 28-45 48-45s39 16 48 45" fill="#1d4ed8" opacity="0.88"/>
+  <circle cx="104" cy="82" r="5" fill="#ffffff" opacity="0.85"/>
+  <path d="M84 130c20 18 52 18 72 0" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.45"/>
+</svg>
