@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的第一个网页</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="主导航">
+      <a class="logo" href="#home">我的网页</a>
+      <ul class="nav-links">
+        <li><a href="#home">首页</a></li>
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#services">服务内容</a></li>
+        <li><a href="#contact">联系方式</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">欢迎来到</p>
+        <h1>我的第一个网页</h1>
+        <p class="hero-text">这是一个使用 HTML、CSS 和 JavaScript 从零创建的中文网页，风格简洁清爽，适合在电脑和手机上浏览。</p>
+        <button id="learnMoreBtn" class="primary-button" type="button">了解更多</button>
+      </div>
+    </section>
+
+    <section id="about" class="section content-section">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>关于我</h2>
+      </div>
+      <p>你好！我正在学习网页制作，希望通过这个项目掌握网页结构、样式设计和基础交互。这个页面是我迈出的第一步。</p>
+    </section>
+
+    <section id="services" class="section content-section alt-section">
+      <div class="section-heading">
+        <p class="eyebrow">Services</p>
+        <h2>服务内容</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h3>网页设计</h3>
+          <p>规划清晰的页面结构，打造易读、美观的展示页面。</p>
+        </article>
+        <article class="card">
+          <h3>响应式布局</h3>
+          <p>让网页在电脑、平板和手机上都拥有良好的浏览体验。</p>
+        </article>
+        <article class="card">
+          <h3>基础交互</h3>
+          <p>使用原生 JavaScript 添加按钮滚动等轻量级互动效果。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section content-section">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>联系方式</h2>
+      </div>
+      <p>如果你想交流网页制作经验，欢迎通过以下方式联系我。</p>
+      <div class="contact-list">
+        <a href="mailto:hello@example.com">hello@example.com</a>
+        <a href="tel:+8613800000000">+86 138 0000 0000</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 我的第一个网页。保留所有权利。</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
