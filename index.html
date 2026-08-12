@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我的个人空间｜学习与作品</title>
-  <meta name="description" content="记录我的学习、实践和项目作品，分享网页制作、内容整理和 AI 工具学习。">
+  <title>我的个人空间｜AI 工具与网页制作学习</title>
+  <meta name="description" content="AI 工具与网页制作初学者的个人网站，记录 Codex、GitHub、HTML、CSS 和 JavaScript 学习过程，展示网页作品与实践成果。">
   <link rel="icon" type="image/png" href="images/profile-photo.png">
   <link rel="apple-touch-icon" href="images/profile-photo.png">
   <link rel="stylesheet" href="style.css">
@@ -26,11 +26,15 @@
   <main>
     <section id="home" class="hero section">
       <div class="hero-content">
-        <p class="eyebrow">欢迎来到</p>
-        <h1 class="hero-title">欢迎来到<wbr>我的个人空间</h1>
-        <p class="hero-text">这里记录我的学习、实践和成长，也用于展示我正在完成的项目与作品。</p>
+        <p class="eyebrow">AI Tools · Web Design · Learning Notes</p>
+        <h1 class="hero-title">你好，欢迎来到<wbr>我的个人空间</h1>
+        <p class="hero-subtitle">AI 工具与网页制作初学者｜持续学习的个人创作者</p>
+        <p class="hero-text">这里用于个人介绍、记录学习过程、展示网页作品，也分享我使用 Codex 和其他 AI 工具的实践成果。</p>
         <img class="profile-avatar" src="images/profile-photo.png" alt="个人照片">
-        <button id="learnMoreBtn" class="primary-button" type="button">了解更多</button>
+        <div class="hero-actions">
+          <button id="learnMoreBtn" class="primary-button" type="button">了解更多</button>
+          <a class="secondary-button" href="https://gengqingqin-del.github.io/my-first-website/" target="_blank" rel="noopener noreferrer">访问网站</a>
+        </div>
       </div>
     </section>
 
@@ -39,7 +43,12 @@
         <p class="eyebrow">About Me</p>
         <h2>关于我</h2>
       </div>
-      <p>我正在学习人工智能、网页制作和数字工具，希望通过持续实践掌握更多实用技能。</p>
+      <div class="intro-card">
+        <p>你好，欢迎来到我的个人空间。</p>
+        <p>我是一名正在学习 AI 工具和网页制作的初学者。我喜欢探索新工具，并尝试把学到的知识转化成可以实际使用和公开展示的作品。</p>
+        <p>目前，我正在学习使用 Codex 辅助创建和修改网页，通过 GitHub 管理网站文件，并使用 GitHub Pages 将作品发布到互联网上。</p>
+        <p>这个网站用于记录我的学习、实践和成长，也会陆续展示我完成的新项目。虽然我还在学习阶段，但我愿意持续尝试、认真改进，一步一步积累属于自己的数字作品。</p>
+      </div>
     </section>
 
     <section id="services" class="section content-section alt-section">
@@ -49,16 +58,19 @@
       </div>
       <div class="cards">
         <article class="card">
-          <h3>网页制作</h3>
-          <p>制作结构清晰、风格统一的个人展示页面。</p>
+          <span class="card-icon" aria-hidden="true">🤖</span>
+          <h3>AI 工具学习与实践</h3>
+          <p>学习和体验 Codex 等 AI 工具，探索如何利用人工智能辅助网页制作、内容整理和日常工作，并记录实际操作过程及学习成果。</p>
         </article>
         <article class="card">
-          <h3>内容整理</h3>
-          <p>梳理学习记录、项目资料和作品说明，让信息更易阅读。</p>
+          <span class="card-icon" aria-hidden="true">💻</span>
+          <h3>个人网页制作</h3>
+          <p>学习使用 HTML、CSS 和 JavaScript 制作响应式网页，通过 GitHub 管理代码，并使用 GitHub Pages 发布网站。目前主要用于个人练习和作品积累。</p>
         </article>
         <article class="card">
-          <h3>AI 工具学习</h3>
-          <p>探索人工智能工具的使用方法，并将学习成果应用到实践中。</p>
+          <span class="card-icon" aria-hidden="true">🗂️</span>
+          <h3>内容整理与成果展示</h3>
+          <p>将个人介绍、学习记录、项目作品和公开联系方式整理成清晰易读的网页内容，让学习过程和实践成果能够持续保存和展示。</p>
         </article>
       </div>
     </section>
@@ -70,37 +82,38 @@
       </div>
       <div class="cards project-cards">
         <article class="card project-card">
-          <h3>我的第一个响应式网页</h3>
-          <p>使用 HTML、CSS 和 JavaScript 制作，并通过 GitHub Pages 发布。</p>
+          <p class="project-label">作品一</p>
+          <h3>我的个人空间</h3>
+          <p>这是我从零开始制作的第一个中文响应式个人网站。网站包含个人介绍、服务内容、作品展示和联系方式，并针对电脑与手机屏幕进行了适配。</p>
+          <a class="project-action" href="https://gengqingqin-del.github.io/my-first-website/" target="_blank" rel="noopener noreferrer">访问作品网址</a>
+        </article>
+        <article class="card project-card">
+          <p class="project-label">作品二</p>
+          <h3>Codex 网页制作学习记录</h3>
+          <p>记录我使用 Codex 创建网页、修改标题、替换图片、完善联系方式、添加网站图标、发布 GitHub Pages，以及检查手机端显示效果的完整学习过程。</p>
           <a class="project-action" href="https://github.com/gengqingqin-del/my-first-website" target="_blank" rel="noopener noreferrer">查看项目代码</a>
-        </article>
-        <article class="card project-card">
-          <h3>Codex 学习记录</h3>
-          <p>记录我使用 Codex 创建、修改和发布网页的学习过程。</p>
-          <span class="project-status">持续更新中</span>
-        </article>
-        <article class="card project-card">
-          <h3>更多作品</h3>
-          <p>新的学习项目和作品将在这里陆续展示。</p>
-          <span class="project-status">敬请期待</span>
         </article>
       </div>
     </section>
 
-    <section id="contact" class="section content-section">
+    <section id="contact" class="section content-section contact-section">
       <div class="section-heading">
         <p class="eyebrow">Contact</p>
-        <h2>联系方式</h2>
+        <h2>公开联系方式</h2>
       </div>
-      <p class="contact-note">欢迎通过 GitHub 查看我的项目和最新学习成果。</p>
-      <div class="contact-list">
-        <a href="https://github.com/gengqingqin-del" target="_blank" rel="noopener noreferrer">访问我的 GitHub</a>
+      <p class="contact-note">欢迎通过以下方式与我联系，或者查看我的最新学习成果与项目作品。</p>
+      <div class="contact-list" aria-label="联系方式列表">
+        <a href="tel:18116307170"><span>微信号</span>18116307170</a>
+        <a href="mailto:gengqingqin@gmail.com"><span>电子邮箱</span>gengqingqin@gmail.com</a>
+        <a href="https://github.com/gengqingqin-del" target="_blank" rel="noopener noreferrer"><span>GitHub 个人主页</span>gengqingqin-del</a>
+        <a href="https://gengqingqin-del.github.io/my-first-website/" target="_blank" rel="noopener noreferrer"><span>个人网站</span>GitHub Pages</a>
+        <a href="https://github.com/gengqingqin-del/my-first-website" target="_blank" rel="noopener noreferrer"><span>网站代码仓库</span>my-first-website</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>&copy; 2026 我的个人空间。保留所有权利。</p>
+    <p>&copy; 2026 我的个人空间。持续学习，认真改进。</p>
   </footer>
 
   <script src="script.js"></script>
